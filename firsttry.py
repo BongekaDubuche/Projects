@@ -13,7 +13,7 @@ def start_game():
 guess = input("Okay, I have picked a random number between 1 and 10. What's your guess? ")
 try:
     int(guess)
-except 'ValueError':
+except ValueError:
     guess = input("That is not a valid number. Please input a number between 1-10. ")
     #guess = 1
 
