@@ -9,7 +9,7 @@ try:
 except ValueError:
     guess = input("That is not a valid number. Please input a number between 1-10. ")
 
-    number = 0
+number = 0
 guess_number = 0
 count_number_of_tries = 0
 
